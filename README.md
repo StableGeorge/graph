@@ -20,3 +20,16 @@ plane.addGraph(function=lambda x:x, color=(255, 0, 0))      # Set the function "
 plane.show()
 app.exec_()
 ```
+
+# How to install
+
+To install through PyPI:
+```
+pip install graph
+```
+
+If you want to install through the uploaded files, install the dependences, download the wheel and install with pip:
+```
+pip install PyQt5 pyqtgraph
+pip install ./graph-1.0-py3-none-any.whl
+```
